@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando com o Sandro</title>
+    <link rel="stylesheet" href="calculo.css">
+      <link rel="icon" type="image/x-icon" href="Sandro.jpeg">
+</head>
+<body>
+     <img src="Hb8zizeMzL.gif">
+
+ 
+  <div class="calculo">
+    <h2>Carga Elétrica de um Átomo</h2>
+    <p>A carga elétrica de um átomo é determinada pela quantidade de partículas carregadas (como elétrons ou prótons). A fórmula usada é:</p>
+    <p><strong>Q = n × e</strong></p>
+    <p>Onde:<br>
+      Q = carga elétrica (em Coulombs)<br>
+      n = número de partículas<br>
+      e = carga elementar (1,6 × 10⁻¹⁹ C)
+    </p>
+    <label for="n">Número de partículas (n):</label>
+    <input type="number" id="n" />
+    <button onclick="calcularCarga()">Calcular Carga</button>
+    <div class="resultado" id="resultadoCarga"></div>
+    
+  </div>
+
+  
+  <div class="calculo">
+    <img src="2025-06-02-Irmaos-Kratt (5).gif">
+    <h2>Interação entre Cargas</h2>
+    <p>A força de interação entre duas cargas elétricas é calculada pela Lei de Coulomb:</p>
+    <p><strong>F = (K × q₁ × q₂) / d²</strong></p>
+    <p>Onde:<br>
+      F = força elétrica (em Newtons)<br>
+      K = constante eletrostática (9 × 10⁹ N·m²/C²)<br>
+      q₁ e q₂ = valores das cargas (em Coulombs)<br>
+      d = distância entre as cargas (em metros)
+    </p>
+    <label for="q1">Carga q₁ (C):</label>
+    <input type="number" step="any" id="q1" />
+    <label for="q2">Carga q₂ (C):</label>
+    <input type="number" step="any" id="q2" />
+    <label for="distancia">Distância (m):</label>
+    <input type="number" step="any" id="distancia" />
+    <button onclick="calcularForca()">Calcular Força</button>
+    <div class="resultado" id="resultadoForca"></div>
+  </div>
+<script src="calculo.js"></script>
+    
+</body>
+</html>

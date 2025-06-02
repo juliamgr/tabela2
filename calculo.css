@@ -1,0 +1,48 @@
+  body {
+      font-family: Arial, sans-serif;
+     
+      color: #333;
+      margin: 20px;
+      background-image: url("https://s2-g1.glbimg.com/CcE8wSbey6UvcHyW1YJ41KgYhnU=/0x0:1440x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/B/m/QrNtIyQaWwEMuWe31EKg/p186097-i-h9-aa.webp");
+    }
+    h1, h2 {
+       text-shadow: 0 0 3px #FF0000;
+    }
+  
+    .calculo {
+      
+      padding: 20px;
+      margin-bottom: 30px;
+    border: 10mm ridge rgba(223, 168, 4, 0.6);
+    
+       width: auto;
+  height: auto;
+  background-image: url("https://s2-g1.glbimg.com/CcE8wSbey6UvcHyW1YJ41KgYhnU=/0x0:1440x1080/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2025/B/m/QrNtIyQaWwEMuWe31EKg/p186097-i-h9-aa.webp" with:100px);
+ 
+    }
+    .calculo#my {
+  transform: rotate(20deg);
+}
+    .resultado {
+      font-weight: bold;
+      margin-top: 10px;
+      
+    }
+    
+    
+    input[type="number"] {
+      padding: 5px;
+      width: 150px;
+    }
+    button {
+        background-image: linear-gradient(to right, rgb(84, 189, 184),rgb(74, 107, 215),rgb(74, 15, 185));
+      padding: 8px 15px;
+      
+   color:white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1e4cad;
+    }
